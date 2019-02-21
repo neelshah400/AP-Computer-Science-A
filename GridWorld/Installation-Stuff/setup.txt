@@ -1,0 +1,15 @@
+Home:
+
+Configure\Preferences\Tools\Compile Java\Parameters
+-classpath .;F:\AP-Computer-Science-A\GridWorld\GridWorldCode\gridworld.jar $File
+
+Configure\Preferences\Tools\Run Java Application\Parameters
+-classpath .;F:\AP-Computer-Science-A\GridWorld\GridWorldCode\gridworld.jar $BaseName
+
+School:
+
+Configure\Preferences\Tools\Compile Java\Parameters
+-classpath .;E:\AP-Computer-Science-A\GridWorld\GridWorldCode\gridworld.jar $File
+
+Configure\Preferences\Tools\Run Java Application\Parameters
+-classpath .;E:\AP-Computer-Science-A\GridWorld\GridWorldCode\gridworld.jar $BaseName

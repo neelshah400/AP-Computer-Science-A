@@ -2,22 +2,20 @@ public class Sorting{
 
 	public static void main(String[]args){
 
-		int [] arrNorm = {8, 6, 4, 7, 5};
-		int [] arrSelection = {8, 6, 4, 7, 5};
-		int [] arrInsertion = {8, 6, 4, 7, 5};
+		int [] arrNorm = {7, 4, 1, 8, 5, 2, 9, 6, 3, 0};
+		int [] arrSelection = {7, 4, 1, 8, 5, 2, 9, 6, 3, 0};
+		int [] arrInsertion = {7, 4, 1, 8, 5, 2, 9, 6, 3, 0};
 
-		for(int i = 0; i < arrNorm.length; i++)
-			System.out.print(arrNorm[i] + "\t");
+		for(int i : arrNorm)
+			System.out.print(i + "\t");
 		System.out.println();
 
-		arrSelection = selectionSort(arrSelection);
-		for(int i = 0; i < arrSelection.length; i++)
-			System.out.print(arrSelection[i] + "\t");
+		for(int i : selectionSort(arrSelection))
+			System.out.print(i + "\t");
 		System.out.println();
 
-		arrInsertion = insertionSort(arrInsertion);
-		for(int i = 0; i < arrInsertion.length; i++)
-			System.out.print(arrInsertion[i] + "\t");
+		for(int i : insertionSort(arrInsertion))
+			System.out.print(i + "\t");
 		System.out.println();
 
 	}
